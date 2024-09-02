@@ -6,13 +6,14 @@
 
 https://www.sseduacademy.com/
 
->"대치 투에스에듀 아카데미의 공식 홈페이지입니다.
-투에스에듀는 수학과 국어를 전문으로 하는 입시학원으로, 대한민국의 최고 교육 전문가들과 함께 하고 있습니다.
-투에스에듀 아카데미의 공식 홈페이지를 통해 자세한 정보를 확인하시고, 언제든지 문의 및 상담 신청이 가능합니다."
+> "대치 투에스에듀 아카데미의 공식 홈페이지입니다.
+> 투에스에듀는 수학과 국어를 전문으로 하는 입시학원으로, 대한민국의 최고 교육 전문가들과 함께 하고 있습니다.
+> 투에스에듀 아카데미의 공식 홈페이지를 통해 자세한 정보를 확인하시고, 언제든지 문의 및 상담 신청이 가능합니다."
 
 <br/>
 
 **주요 기능**:
+
 - 학원, 강사, 시설 등의 정보 제공
 - 진행중인 수업의 커리큘럼 제공
 - 원서접수 및 상담 신청
@@ -24,14 +25,16 @@ https://www.sseduacademy.com/
 
 **프론트엔드 (Frontend):**
 
-|**프레임워크**|**언어**|**UI 라이브러리**|
-|---|---|---|
-|<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">|<img src="https://img.shields.io/badge/javascript-ffc700?style=for-the-badge&logo=Javascript&logoColor=white">|<img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">|
+| **프레임워크**                                                                                             | **언어**                                                                                                       | **UI 라이브러리**                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"> | <img src="https://img.shields.io/badge/javascript-ffc700?style=for-the-badge&logo=Javascript&logoColor=white"> | <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white"> |
 
 **백엔드 및 데이터베이스 (Backend & Database):**
+
 - firebase
 
 **node 버전:**
+
 - v18.18.0
 
 <br/>
@@ -40,12 +43,15 @@ https://www.sseduacademy.com/
 ## 프로젝트 설치 및 실행 방법
 
 **1. 소스코드 클론 (Clone the repository)**
-``` bash
+
+```bash
 $ git clone https://github.com/EveryDayMathCompany/ssedu_fe.git
 ```
 
 **2. '.env.local' 파일 생성 (Create '.env.local' file)**
+
 - 프로젝트 루트 디렉토리에 .env.local 파일을 생성하고 다음과 같이 설정합니다:
+
 ```
 NEXT_PUBLIC_PLUGIN_KEY=66a022fb-016c-473a-81b7-f2e2b9356e2f
 NEXT_PUBLIC_BASIC_URL=http://localhost:3000
@@ -62,19 +68,22 @@ NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=G-JTLY41W18H
 ```
 
 **3. 프론트엔드 의존성 설치 (Install Frontend Dependencies)**
+
 ```
 $ npm install
 ```
 
 **4. 프론트엔드 실행 (Run Frontend)**
+
 ```
 $ npm run dev
 ```
-- 프로젝트의 프론트엔드를 실행하려면 위의 명령어를 사용하세요. 
+
+- 프로젝트의 프론트엔드를 실행하려면 위의 명령어를 사용하세요.
 - 개발 서버가 시작되면 브라우저에서 http://localhost:3000 로 이동하여 프로젝트를 확인할 수 있습니다.
 
-
 **5. 프론트엔드 배포 (Frontend Deployment)**
+
 - 프론트엔드의 배포는 Vercel을 통해 이루어집니다. 배포를 위한 설정은 Vercel에서 진행됩니다.
 - 이제 프로젝트를 성공적으로 설치하고 실행할 수 있습니다.
 
@@ -82,6 +91,7 @@ $ npm run dev
 <br/>
 
 ## 시스템 구성도
+
 <img src="https://github.com/EveryDayMathCompany/ssedu_fe/assets/100933263/1c824700-3800-4b32-a219-764ab10dc10a" width='800'></img>
 
 <br/>
